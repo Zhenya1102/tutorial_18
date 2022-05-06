@@ -1,0 +1,45 @@
+/* Обнуляющий стиль */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+   margin: 0;
+	padding: 0;
+	border: 0;
+}
+/* Убираем маркировку */
+li {
+	list-style: none;
+}
+/* Наследование цвета у ссылок */
+a {
+	color: inherit;
+}
+/* Убираем подчеркивание и подсвечивание у ссылки, по которым было произведено нажатие */
+a,
+a:visited{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+/* Наследование для заголовков браузерный шрифт для обычных элементов */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+/* Убираем верхний отступ у изображений */
+img{
+	vertical-align: top;
+}
+body,
+html {
+   height: 100%;
+	line-height: 1;
+}
+/* ================================================================== */
